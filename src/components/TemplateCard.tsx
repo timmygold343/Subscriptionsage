@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Eye, Download, Lock, Heart } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
-import type { Template } from "@shared/schema";
+import type { Template } from "@/lib/schema";
 
 interface TemplateCardProps {
   template: Template;

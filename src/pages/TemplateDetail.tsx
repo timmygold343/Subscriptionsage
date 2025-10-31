@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useToast } from "@/hooks/use-toast";
 import { Download, RotateCcw, Copy, Heart, Lock, ChevronLeft } from "lucide-react";
 import Editor from "@monaco-editor/react";
-import type { Template } from "@shared/schema";
+import type { Template } from "@/lib/schema";
 
 export default function TemplateDetail() {
   const [, params] = useRoute("/template/:id");

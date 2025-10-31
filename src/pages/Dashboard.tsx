@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Crown, Calendar, CreditCard, Package, Sparkles } from "lucide-react";
-import type { Template } from "@shared/schema";
+import type { Template } from "@/lib/schema";
 import { TemplateCard } from "@/components/TemplateCard";
 
 export default function Dashboard() {

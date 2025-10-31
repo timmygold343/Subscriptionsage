@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "wouter";
 import { Sparkles, Code2, Zap, Shield, ChevronRight } from "lucide-react";
-import type { Template } from "@shared/schema";
-import { CATEGORIES } from "@shared/schema";
+import type { Template } from "@/lib/schema";
+import { CATEGORIES } from "@/lib/schema";
 
 export default function Home() {
   const { data: templates } = useQuery<Template[]>({

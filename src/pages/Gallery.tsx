@@ -5,7 +5,7 @@ import { TemplateCard } from "@/components/TemplateCard";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search, Filter } from "lucide-react";
-import { CATEGORIES, type Template } from "@shared/schema";
+import { CATEGORIES, type Template } from "@/lib/schema";
 import {
   Select,
   SelectContent,

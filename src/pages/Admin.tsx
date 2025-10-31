@@ -32,7 +32,7 @@ import {
 } from "@/components/ui/dialog";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { insertTemplateSchema, CATEGORIES, type Template } from "@shared/schema";
+import { insertTemplateSchema, CATEGORIES, type Template } from "@/lib/schema";
 import { useToast } from "@/hooks/use-toast";
 import { Plus, Users, Package, DollarSign, Trash2 } from "lucide-react";
 import { z } from "zod";
